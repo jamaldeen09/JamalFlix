@@ -7,12 +7,12 @@ module.exports = {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      
+    },
   },
   plugins: [
-    plugin(function({ addVariant }) {
-      addVariant('max-lg', '@media (max-width: 1023px)')
-    })
-  ]
+    
+  ],
 }
 
